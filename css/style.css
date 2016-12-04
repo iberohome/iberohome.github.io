@@ -7,7 +7,7 @@
 	top: 50%;
 	left: 50%;
 	text-align: center;
-	font-size: 56px;
+	font-size: 45px;
     text-shadow: 1px 1px rgba(41, 41, 45, 1);
     font-weight: 20px;
     
@@ -16,7 +16,7 @@
 .titlefont{
 	font-family: 'Quicksand', sans-serif;
 	padding-right: 10px;
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: 3px;
 }
 
@@ -37,7 +37,7 @@
 	text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    font-size: 28px;
+    font-size: 10px;
     margin-bottom: 42px;
 }
 
@@ -57,7 +57,8 @@
 }
 .property-images {
 	width: 100%;
-height: 400px;
+height: 300px;
+padding-bottom: 20px;
 }
 
 .aboutus-font2{
@@ -118,7 +119,7 @@ text-decoration: none;
 .menu {
 
     vertical-align: center;
-    padding: 19px;
+    padding: 10px;
 }
 
 .menuitem {
@@ -130,13 +131,13 @@ text-decoration: none;
 
 	color: rgb(73, 27, 24);
 	font-family: 'Quicksand', sans-serif;
-	font-size: 40px;
+	font-size: 20px;
 }
 
 .colour-black{
 	color: rgb(0,0,0);
 	font-family: 'Quicksand', sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 	padding: 3px;
     letter-spacing: 1px;
     font-weight: 5px;
@@ -145,7 +146,7 @@ text-decoration: none;
 .colour-white{
 	color: white;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: 5px;
 
 }
@@ -153,11 +154,7 @@ text-decoration: none;
 	top: 50px;
 }
 
-/*section{
-	padding-bottom: 10px;
-	padding-top: 10px;
 
-}*/
 
 #about-us{
 	background-color: white;
@@ -228,7 +225,7 @@ header {
 
 #why-spain{
 
-	height:990px;
+	height:100%;
 	width: 100%;
 }
 
@@ -243,12 +240,12 @@ header {
 .fullscreen-bg__video {
    /* top: 0;
     left: 0;*/
-    width: 100%;
-   /* height: 100%;*/
+    width: auto;
+    height: 100%;
 }
 
 .property-bg{
-	padding: 25px;
+	padding: 0px;
 	background-color: rgb(185, 173, 159);
 }
 
@@ -267,7 +264,7 @@ header {
 	left:5%;
 	transform: translate(-10%,-10%);
 	width: 25%;
-	font-size: 20px;
+	font-size: 15px;
 
 }
 
