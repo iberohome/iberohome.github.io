@@ -7,8 +7,12 @@
 			href="img/Icon.jpg">
 
 			<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-			<link rel="stylesheet" type="text/css" href="css/style.css">
-  			<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  			<link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
+  			<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+  			<link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+  			<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+  			<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	 </head>
 
@@ -21,15 +25,15 @@
 			<div class="row">
 				<div class="col-md-12 col-xs-12">
 					<div class="menu">
-						<h1 class=" no-padding inline titlefont" align="right">Ibero</h1>
+						<h1 class="inline titlefont" align="right">Ibero</h1>
 						
-							<ul class="inline menu-right">
-								<li class="inline menuitem"><a href="#about-us"> Home </a></li>
-								<li class="inline menuitem"> <a href="#about-us"> About Us</a> </li>
-								<li class="inline menuitem"> <a href="#why-spain"> Why Spain?</a> </li>
-								<li class="inline menuitem"> <a href="#properties">Properties</a> </li>
-								<li class="inline menuitem"> <a href="#contact-us">Contact </a></li>
-								<li class="inline menuitem"> <a href="#book"> Book </a></li>
+							<ul class="inline menu-right colour-white">
+								<li class="inline"><a class="menuitem"href="#about-us"> Home </a></li>
+								<li class="inline menuitem"> <a class="menuitem" href="#about-us"> About Us</a> </li>
+								<li class="inline menuitem"> <a class="menuitem" href="#why-spain"> Why Spain?</a> </li>
+								<li class="inline menuitem"> <a class="menuitem" href="#properties">Properties</a> </li>
+								<li class="inline menuitem"> <a  class="menuitem" href="#contact-us">Contact </a></li>
+								<li class="inline menuitem"> <a class="menuitem" href="#book"> Book </a></li>
 							</ul>
 					
 					</div>
@@ -41,7 +45,7 @@
 	<header>
 		<div class="container">
 
-			<p class="mainfont"> High-end Country Houses for Rent in Spain</p>
+			<p class="mainfont animated fadein"> High-end Country Houses for Rent in Spain</p>
 		</div>
 
 	</header>
@@ -50,11 +54,11 @@
 	
 
 	<section id="about-us">
-		<div class="container ">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-6 col-xs-6">
 					<h1 class="colour-red aboutus-font1"> About Us </h1>
-					<ul>
+					<ul class="nolist">
 						<li class="colour-red">Who we are</li>
 							<p class="colour-black aboutus-font2"> We are two LSE students in our final year. Marcos is finishing his Law degree and Eliza is studying Philosophy and Economics. We met at the French Lycee in Madrid when we were 8 and no one gives a fuck.</p>
 						<li class="colour-red">Future Plans</li>
@@ -78,11 +82,16 @@
 	<section id="why-spain">
 		<div class="container-fluid">
 			<div class="row">
-				<div column="col-md-12 col-xs-12 fullscreen-bg full-width">
+				<div class="col-md-12 col-xs-12 fullscreen-bg full-width">
 					    <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
-					        <source src="img/VideoCastilla.mov" type="video/webm">
-					  
+					        <source src="img/NewVidCastilla.mov" type="video/webm">
 					    </video>
+
+					    <div class="videotext">
+							<p>Why Spain? </p>
+							<br>
+							<p>Spain is a unique country in that it has a blend of cultures embedded in its history. It is well known for its climate but it has much more to offer than sunshine. The cuisine varies from region to region according to the nature of the land. In the North, the "cocidos" are famous, the centre is known for its "asados" and in the South they fry everything. </p>
+					    </div>
    				</div>
 			</div>
 		</div>
@@ -91,39 +100,57 @@
 
 
 	<section id="properties">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-xs-12">
+		<div class="container-fluid">
+			<div class="row property-bg">
 
-					<h1 class="colour-red"> Properties </h1>
-					<ul>
-					<li class="colour-red"> Cañicosa </li>
+				<h1 class="colour-red aboutus-font1"> Properties </h1>
+				<div class="col-md-4 col-xs-4">
+					<li class="colour-red properties"> Canicosa </li>
 					<p class="colour-black"> This house is located in Segovia, about an hour away from Madrid by car. It includes a natural pond, horses, dogs (a lot) and Jorge!</p>
-					<li class="colour-red">Gormellon</li>
+					<img class="property-images" src="img/Cani.jpeg">
+				</div>
+
+				<div class="col-md-4 col-xs-4">
+					<li class="colour-red properties">Gormellon</li>
 					<p class="colour-black">This house is in Guadalajara, about an hour and a half's drive from the capital. It has a pool, three friendly dogs and a resident Brit.</p>
-					</ul>
+					<img class="property-images" src="img/Gormellon.jpg">
+				</div>
+
+				<div class="col-md-4 col-xs-4">
+					<li class="colour-red properties">Guadalcanal</li>
+					<p class="colour-black">This house is in Andalucia, it is a traditional cortijo surrounded by olive groves. It is an hour's drive from Sevilla.</p>
+					<img class="property-images" src="img/CortijoSevilla.jpg">
+				</div>
 					
- 			</div>
+ 			
 			</div>
 		</div>
 	</section>
 
 
 	<section id="contact-us">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-6 col-xs-6">
-					<h1 class="colour-red font20"> Contact Us </h1>
+				<div class="col-md-6 col-xs-6 map">
+					<h1 class="colour-red aboutus-font1"> Contact Us </h1>
 					
 
-					<p>Where To Find Us:</p>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3006.3542427102516!2d-3.7701351345829637!3d41.10495392929112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd415649412aee5b%3A0x4f5b151f9edba006!2s40163+Ca%C3%B1icosa%2C+Segovia%2C+Spain!5e0!3m2!1sen!2suk!4v1480781732265" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-					<br>
-					<br>
-					<br>
-					<p class="colour-red"> email: </p>
-					<p>iberoinfo@ibero.es </p>
+					<p class="colour-black">Where To Find Us:</p>
+					<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3006.3542427102516!2d-3.7701351345829637!3d41.10495392929112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd415649412aee5b%3A0x4f5b151f9edba006!2s40163+Ca%C3%B1icosa%2C+Segovia%2C+Spain!5e0!3m2!1sen!2suk!4v1480781732265" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
 
+					<div class="col-md-6 col-xs-6">
+						<p class="colour-red address">Address:</p>
+						<p class="colour-black">Calle Rafael Calvo 1,
+						<br>28020
+						<br>Madrid
+						<br>Spain</p>
+						<br>
+						<br>
+						<br>
+						<br>
+						<p class="colour-red"> email: </p>
+					<p class="colour-black">iberoinfo@ibero.es </p>
 					</div>
 				</div>
 			</div>
@@ -131,13 +158,14 @@
 
 		
  <section id="book">
- 		<div class="container">
+ 		<div class="container-fluid">
  			<div class="row">
  			 	<div class="col-md-6 col-xs-6">
 			 		
 			 		<form class="colour-black">
-						<h3 class="colour-red font20"> Enquiry </h3>
-						<h4 class="colour-red font20"> Your details: </h4>
+						<h3 class="colour-red aboutus-font1"> Enquiry
+						<br>
+						Your Details </h3>
 					     <p>Name: <input type="text"></p>
 					     <p>Surname: <input type="text"></p>
 					     <p>Requirements:</p>
@@ -154,10 +182,11 @@
 						  <option value="3">3</option>
 						  <option value="4+">4+</option>
 						</select>
-					    </p
+					    </p>
 
 
 					</form>
+
 					</div>
 						
 						<div class="col-md-6 col-xs-6">
@@ -165,17 +194,17 @@
 								<br>
 								<br>
 								<br>
-							     <p> What date would you like to stay from?</p>
+							     <p class="colour-black"> What date would you like to stay from?</p>
 							     <input type ="date">
-							     <p> What date would you like to stay until?</p>
+							     <p class="colour-black"> What date would you like to stay until?</p>
 							     <input type ="date">
 							     <br>
 							     <br>
-							     <p>Phone number: 
+							     <p class="colour-black">Phone number: 
 								 <br>
 							     <input type="tel"></p>
 							     <br>
-							     <p><input type="submit" value="Submit"></p>
+							     <p class="colour-white"><input class="button" type="submit" value="Submit"></p>
 					    	</form>
 			    	</div>
 

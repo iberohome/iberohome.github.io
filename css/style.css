@@ -1,6 +1,6 @@
 
 .mainfont{
-	font-family: 'Playfair Display', sans-serif;
+	font-family: 'Quicksand', sans-serif;	
 	position: absolute;
 	color: white;
 	transform: translate(-50%, -50%);
@@ -8,11 +8,16 @@
 	left: 50%;
 	text-align: center;
 	font-size: 56px;
-    text-shadow: 5px 5px rgba(41, 41, 45, 1);
+    text-shadow: 1px 1px rgba(41, 41, 45, 1);
+    font-weight: 20px;
+    
 }
 
 .titlefont{
-	font-family: 'Playfair Display', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	padding-right: 10px;
+	font-size: 60px;
+	font-weight: 3px;
 }
 
 .body{
@@ -22,15 +27,37 @@
 
 .full-width {
 	width: 100%;
+	position:relative;
+}
+.height-full{
+	height: 100%;
 }
 
 .aboutus-font1{
-
 	text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
     font-size: 28px;
     margin-bottom: 42px;
+}
+
+.nolist{
+
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.address{
+	padding-top: 134px;
+}
+
+.map{
+
+	margin-bottom: 40px;
+}
+.property-images {
+	width: 100%;
+height: 400px;
 }
 
 .aboutus-font2{
@@ -40,6 +67,18 @@
     padding-bottom: 5px;
     margin-bottom: 37px;
     letter-spacing: 1px;
+
+}
+.fadein{
+	animation-duration: 5s;
+
+}
+
+.properties{
+
+text-decoration: none;
+	list-style-type: none;
+	letter-spacing: 1px;
 }
 
 .wapos{
@@ -84,26 +123,30 @@
 
 .menuitem {
 	padding: 0 10px;
-	color: white;
+	color: rgb(255,255,255);
 }
 
 .colour-red{
 
 	color: rgb(73, 27, 24);
-	font-family: 'Playfair Display', sans-serif;
-	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 40px;
 }
 
 .colour-black{
 	color: rgb(0,0,0);
-	font-family: 'Playfair Display', sans-serif;
-	font-size: 13px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+	padding: 3px;
+    letter-spacing: 1px;
+    font-weight: 5px;
 
 }
 .colour-white{
 	color: white;
-	font-family: 'Playfair Display', sans-serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;
+	font-weight: 5px;
 
 }
 .spoti{
@@ -118,7 +161,7 @@
 
 #about-us{
 	background-color: white;
-
+	padding: 50px;
 }
 
 .cin-background{
@@ -185,8 +228,8 @@ header {
 
 #why-spain{
 
-	height:501px
-	width: full-width;
+	height:990px;
+	width: 100%;
 }
 
 .fullscreen-bg {
@@ -194,7 +237,7 @@ header {
     right: 0;
     bottom: 0;
     left: 0;
-
+    padding: 0;
 }
 
 .fullscreen-bg__video {
@@ -204,13 +247,30 @@ header {
    /* height: 100%;*/
 }
 
-#properties{
-
-background-color: rgb(185, 173, 159);
-height: 500px;
-
+.property-bg{
+	padding: 25px;
+	background-color: rgb(185, 173, 159);
 }
 
 #book{
 	background-color: rgb(185, 173, 159);
+}
+
+
+.videotext{
+	background-color: rgba(255,255,255,0.7);
+	font-family: 'Quicksand', sans-serif;
+	border-radius: 10px;
+	padding:10px;
+	position: absolute;
+	top: 5%;
+	left:5%;
+	transform: translate(-10%,-10%);
+	width: 25%;
+	font-size: 20px;
+
+}
+
+.button{
+	background-color: rgb(73, 27, 24);
 }
